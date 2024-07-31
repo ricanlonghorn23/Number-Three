@@ -1,0 +1,92 @@
+[
+  {
+    "petOwner": "Brian Kernighan",
+    "petName": "Max",
+    "type": "Dog",
+    "age": "2",
+    "isClean": "2",
+    "playedWith": "1",
+    "hunger": "60"
+  },
+  {
+    "petOwner": "Max Kanat-Alexander",
+    "petName": "Bubbles",
+    "type": "Cat",
+    "age": "2",
+    "isClean": "2",
+    "playedWith": "1",
+    "hunger": "60"
+  },
+  {
+    "petOwner": "wtls",
+    "petName": "Gunner",
+    "type": "Dog",
+    "age": "2",
+    "isClean": "2",
+    "playedWith": "1",
+    "hunger": "60"
+  },
+  {
+    "petOwner": "Kent Beck",
+    "petName": "Kitty",
+    "type": "Cat",
+    "age": "2",
+    "isClean": "2",
+    "playedWith": "1",
+    "hunger": "60"
+  },
+  {
+    "petOwner": "Edward V. Berard",
+    "petName": "Yeller",
+    "type": "Dog",
+    "age": "2",
+    "isClean": "2",
+    "playedWith": "1",
+    "hunger": "60"
+  },
+  {
+    "petOwner": "Alan Kay",
+    "petName": "Sparkles",
+    "type": "Cat",
+    "age": "2",
+    "isClean": "2",
+    "playedWith": "1",
+    "hunger": "60"
+  },
+  {
+    "petOwner": "C.A.R. Hoare",
+    "petName": "April",
+    "type": "Dog",
+    "age": "2",
+    "isClean": "2",
+    "playedWith": "1",
+    "hunger": "60"
+  },
+  {
+    "petOwner": "David Thomas",
+    "petName": "Nola",
+    "type": "Cat",
+    "age": "2",
+    "isClean": "2",
+    "playedWith": "1",
+    "hunger": "60"
+  },
+  {
+    "petOwner": "Donald Knuth",
+    "petName": "June",
+    "type": "Dog",
+    "age": "2",
+    "isClean": "2",
+    "playedWith": "1",
+    "hunger": "60"
+  },
+  {
+    "petOwner": "Lernantino",
+    "petName": "Simba",
+    "type": "Cat",
+    "age": "2",
+    "isClean": "2",
+    "playedWith": "1",
+    "hunger": "60"
+  }
+]
