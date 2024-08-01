@@ -75,7 +75,7 @@ const Login = (props) => {
     <Grid textAlign='center' style={{ height: '100vh' }} verticalAlign='middle'>
     <Grid.Column style={{ maxWidth: 450 }}>
       <Header as='h2' color='teal' textAlign='center'>
-      <Icon name='heartbeat' /> Log-in to care for your Animals!
+      <Icon name='paw' /> Log-in to care for your Animals!
       </Header>
       <Form onSubmit={handleFormSubmit} size='large'>
         <Segment stacked>

@@ -46,7 +46,7 @@ const resolvers = {
             }
       
             const pet = new Pet({
-                name,
+                petName,
                 type,
                 age,
                 isClean,
