@@ -1,27 +1,47 @@
 import { useLocation, useNavigate } from 'react-router-dom';
+import {
+  Container,
+  Divider,
+  Dropdown,
+  Grid,
+  Header,
+  Icon,
+  Image,
+  List,
+  Menu,
+  Segment,
+} from 'semantic-ui-react'
 
 const Footer = () => {
   const location = useLocation();
   const navigate = useNavigate();
   return (
-    <footer className="w-100 mt-auto bg-secondary p-4">
-      <div className="container text-center mb-5">
-  
-        <h4>
-          Made with{' '}
-          <span
-            className="emoji"
-            role="img"
-            aria-label="heart"
-            aria-hidden="false"
-          >
-            ❤️
-          </span>{' '}
-          by The Quiet Ones.
-        </h4>
-      </div>
-    </footer>
-  );
-};
+    <div>
+    <Segment inverted style={{ margin: '5em 0em 0em', padding: '5em 0em' }} vertical>
+    <Container textAlign='center'>
+      <Grid columns={4} divided stackable inverted>
+       
+      </Grid>
+      <Divider inverted section />
+      <Icon name='paw' centered size='mini' />
+      <List horizontal inverted divided link size='small'>
+        <List.Item as='a' href='#'>
+          Site Map
+        </List.Item>
+        <List.Item as='a' href='#'>
+          Contact Us
+        </List.Item>
+        <List.Item as='a' href='#'>
+          Terms and Conditions
+        </List.Item>
+        <List.Item as='a' href='#'>
+          Privacy Policy
+        </List.Item>
+      </List>
+    </Container>
+  </Segment>
 
+</div>
+);
+};
 export default Footer;
